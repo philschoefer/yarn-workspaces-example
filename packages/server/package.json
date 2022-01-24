@@ -3,8 +3,10 @@
   "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "echo testing server with version: $npm_package_version"
+  },
   "dependencies": {
-    "@walnut/common": "^1.0.3",
-    "graphql-yoga": "^1.14.7"
+    "@walnut/common": "^1.0.3"
   }
 }
